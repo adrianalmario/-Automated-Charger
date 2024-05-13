@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battery Status</title>
+    <link rel="stylesheet" href="css/battery.css">
+</head>
+<body>
+   
+<div class="navbar">
+    <div>
+        <nav class="container">
+            <img src="css/logo.avif"  height="50px" width="80px" alt="Logo" class="logo-img">
+            <div class="logo">
+                
+                
+                <a href="#" class="brand"><center>Battery App</center></a>
+            </div>
+            
+           
+        </nav>
+    </div>
+</div>
+
+
+    
+    <p class="batteryLevel">Battery Level: <span id="batteryLevel">Loading...</span></p>
+
+        
+</div>
+
+<!--=============== BATTERY ===============-->
+
+<section class="battery">
+    <div class="battery__card">
+        <div class="battery__data">
+            <p class="battery__text">Battery Level:</p>
+            <h1 class="battery__percentage"></h1>
+
+            <p class="battery__status">
+                Low battery <i class="ri-plug-line"></i>
+            </p>
+        </div>
+
+        <div class="battery__pill">
+            <div class="battery__level">
+                <div class="battery__liquid"></div>
+            </div>
+        </div>
+    </div>
+    <div id="charginContainer">
+        <p class="pl">Charging: <span id="isPlugged"></span></p>
+    </div>
+  
+
+</section>
+
+
+    
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
